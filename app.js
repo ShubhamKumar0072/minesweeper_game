@@ -357,3 +357,9 @@ function UpdateBomb(){
    let bom = document.querySelector(".bcount");
    bom.innerText = `${bomNo}`;
 }
+
+//Help
+let help = document.querySelector(".help");
+help.addEventListener("click",function(){
+   alert('1) Uncover all squares without exploding any mine. 2) Add flag by right click or click and hold. 3) Numbers indicates its surrounding mines');
+});
