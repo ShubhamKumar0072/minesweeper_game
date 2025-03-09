@@ -4,6 +4,7 @@ html,body{
    height: 100%;
 }
 body{
+   user-select: none;
    background-color: #2a004e;
    background-image: linear-gradient(to bottom right, #2a004e,purple);
    display: flex;
