@@ -104,7 +104,7 @@ body{
 
 
 
-.info1,.info2{
+.info2{
    background-color: #1c0232;
    height: 100%;
    width: 30%;
@@ -139,10 +139,4 @@ body{
 
 .refresh,.level,.help{
    cursor: pointer;
-}
-
-
-
-@media(max-width : 650px){
-
 }
